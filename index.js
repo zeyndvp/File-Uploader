@@ -105,7 +105,7 @@ app.delete("/delete/:fileName", (req, res) => {
 });
 
 var options = {
-    customSiteTitle: "ITzpire Uploader",
+    customSiteTitle: "Nazuna Uploader",
     customfavIcon: "https://i.ibb.co/GphSk0T/upload.png",
     customCss: `.topbar { display: none; }`,
     swaggerOptions: {
@@ -121,10 +121,10 @@ const swaggerDocument = {
     description: "Docs for Uploader",
     "x-logo": {
       url: "https://i.ibb.co/GphSk0T/upload.png",
-      altText: "ITzpire Upload",
+      altText: "Nazuna Upload",
     },
   },
-  host: "cdn.itzpire.site",
+  host: "cdn.nazunaxz.xyz",
   basePath: "/",
   tags: [{ name: "Upload", description: "Endpoints related to file upload" }],
   paths: {
