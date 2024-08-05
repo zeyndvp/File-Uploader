@@ -124,7 +124,7 @@ const swaggerDocument = {
       altText: "Nazuna Upload",
     },
   },
-  host: "cdn.nazunaxz.xyz",
+  host: "cdn.nazuna.my.id",
   basePath: "/",
   tags: [{ name: "Upload", description: "Endpoints related to file upload" }],
   paths: {
